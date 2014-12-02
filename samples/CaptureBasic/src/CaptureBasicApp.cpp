@@ -30,7 +30,7 @@ void CaptureBasicApp::setup()
 	}
 
 	try {
-		mCapture = Capture::create( 640, 480 );
+		mCapture = Capture::create( 1920, 1080 );
 		mCapture->start();
 	}
 	catch( ... ) {

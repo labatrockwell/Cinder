@@ -8,7 +8,7 @@ using namespace ci;
 using namespace ci::app;
 using namespace std;
 
-static const int WIDTH = 640, HEIGHT = 480;
+static const int WIDTH = 1920, HEIGHT = 1080;
 
 class CaptureApp : public AppBasic {
  public:	
